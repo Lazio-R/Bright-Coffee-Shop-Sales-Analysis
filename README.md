@@ -6,13 +6,13 @@ The purpose of this project is to create a presentation report that provides bus
 
 # Dataset
 
--- Bright Coffee Shop Sales
+- Bright Coffee Shop Sales.
 
 #
 
 # Tools Used
--Miro - For planning
--Snowflake - For SQL code
--Excel - For PivotTables analyze and PivotCharts
--Canva - For presentation
+- Miro - For planning.
+- Snowflake - For SQL code.
+- Excel - For PivotTables analyze and PivotCharts.
+- Canva - For presentation slides.
 
