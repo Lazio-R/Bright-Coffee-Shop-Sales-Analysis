@@ -1,0 +1,46 @@
+--Bright coffee shop case study code--
+
+SELECT product_category,
+        product_type,
+            product_detail,
+            store_location,
+            
+        --aggregated columns
+        COUNT(*) AS number_or_rows,
+        COUNT(transaction_id) AS number_of_sales,
+        SUM(transaction_qty) AS number_of_units_sold,
+        SUM(transaction_qty*unit_price) AS revenue_per_transaction,
+        SUM(transaction_qty*unit_price) AS total_revenue,
+       
+       --convert date and time
+       TO_CHAR(transaction_date, 'YYYYMM') month_id,
+       MONTHNAME(transaction_date) AS month_name,
+       DAYNAME(transaction_date) AS day_name,
+        
+       
+       --daytime
+        CASE
+            WHEN transaction_time BETWEEN '06:00:00' AND '11:59:59' THEN 'Morning'
+            WHEN transaction_time BETWEEN '12:00:00' AND '15:59:59' THEN 'Afternoon'
+            WHEN transaction_time BETWEEN '16:00:00' AND '19:59:59' THEN 'Evening'
+            ELSE 'Night'
+            END AS time_bucket,
+
+        CASE 
+            WHEN SUM(transaction_qty*unit_price) BETWEEN 0 AND 30 THEN 'Low'
+            WHEN SUM(transaction_qty*unit_price) BETWEEN 0 AND 30 THEN 'Medium'
+            ELSE 'High'
+            END AS spend_trend,
+            
+FROM case_study_db.coffee_shop.shop_sales
+--group by category column(not aggregated columns)
+GROUP BY product_category,
+            product_type,
+            product_detail,
+            store_location,
+            month_id,
+            month_name,
+            day_name,
+            time_bucket
+              
+ORDER BY store_location DESC;
