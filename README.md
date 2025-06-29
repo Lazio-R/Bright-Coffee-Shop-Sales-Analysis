@@ -6,7 +6,8 @@ The purpose of this project is to create a presentation report that provides bus
 
 # Dataset
 
-- Bright Coffee Shop Sales.
+- BRIGHT COFFEE SHOP - Transformed data
+- Bright Coffee Shop Sales - Initial data
 
 #
 
