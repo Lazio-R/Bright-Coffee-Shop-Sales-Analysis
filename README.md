@@ -13,6 +13,6 @@ The purpose of this project is to create a presentation report that provides bus
 # Tools Used
 - Miro - For planning.
 - Snowflake - For SQL code.
-- Excel - For PivotTables analyze and PivotCharts.
+- Excel - For PivotTables and PivotCharts.
 - Canva - For presentation slides.
 
