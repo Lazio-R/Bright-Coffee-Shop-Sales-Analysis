@@ -7,7 +7,7 @@ The purpose of this project is to create a presentation report that provides bus
 # Objectives
 
 
-- **Revenue Analysis - Calculate total sales, average transaction values, and average order sizes.
+- Revenue Analysis - Calculate total sales, average transaction values, and average order sizes.
 - Visitor Trends: Identify peak hours, high-performing days, and unique visitor counts.
 - Store Performance: Compare sales performance across store locations.
 - Product Insights: Evaluate product size preferences and identify top-selling items.
@@ -18,7 +18,7 @@ The purpose of this project is to create a presentation report that provides bus
 - store perfomances
 - daily/weekly/monthly/year activities/performances
 - time_bucket
-- spend trend
+-- spend trend
 - 
 
 # Data Sources
