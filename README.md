@@ -18,7 +18,7 @@ The purpose of this project is to create a presentation report that provides bus
 - store perfomances
 - daily/weekly/monthly/year activities/performances
 - time_bucket
--- spend trend
+- #spend trend
 - 
 
 # Data Sources
