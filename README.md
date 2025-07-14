@@ -15,8 +15,10 @@ The purpose of this project is to create a presentation report that provides bus
 
 # Data Sources
 
-- BRIGHT COFFEE SHOP - Transformed data plus PivotTables.
-- Bright Coffee Shop Sales -Initial raw data.
+- ## BRIGHT COFFEE SHOP
+-Transformed data plus PivotTables.
+  - ## Bright Coffee Shop Sales
+-Initial raw data.
 
 # Tools Used
 The below tools were used to prepare the report: 
